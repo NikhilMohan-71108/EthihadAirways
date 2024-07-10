@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="13px" viewBox="0 0 10 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Guest</title>
+    <g id="🚧-FOR-DEV---Option-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.1-Option-2---Returning-user" transform="translate(-221.000000, -178.000000)" stroke="#212121">
+            <g id="Group-3-Copy-5" transform="translate(56.000000, 112.000000)">
+                <g id="Group-8-Copy-2" transform="translate(165.000000, 64.000000)">
+                    <g id="Guest" transform="translate(0.000000, 2.000000)">
+                        <path d="M6,7.5 C6.96649831,7.5 7.84149831,7.89175084 8.47487373,8.52512627 C9.10824916,9.15850169 9.5,10.0335017 9.5,11 L9.5,12.5 L0.5,12.5 L0.5,11 C0.5,10.0335017 0.891750844,9.15850169 1.52512627,8.52512627 C2.15850169,7.89175084 3.03350169,7.5 4,7.5 Z" id="Rectangle"></path>
+                        <circle id="Oval" cx="5" cy="3" r="2.5"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

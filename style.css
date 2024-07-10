@@ -1,0 +1,587 @@
+
+
+body{
+    margin: 0;
+    
+   
+   }
+   html, body {
+    height: 100%;
+    font-family: EtihadAltis-Medium, arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    
+   
+   }
+.header{
+    display: flex;
+    position: fixed;
+    background: #fff;
+    width: 100%;
+    height: 90px;
+}
+.mainLink{
+    display: flex;
+    gap:4px;
+    color: #4e4c4a;
+    cursor: pointer;
+    font-weight: 400;
+    width:630px;
+}
+.mainLink h5:hover{
+color: black;
+transition-delay: .6s;
+}
+
+.mainlogo{
+    width:35%;
+}
+
+ .mainlogo img{
+    height: 40px;
+    font-weight: 400;
+    padding: 20px;
+    margin-right: 350px;
+    margin-bottom: 30px;
+}
+
+.mainlogo h5{
+   padding: 30px;
+   
+   
+    
+}
+
+.special{
+    margin-top: 29px;
+    width: 10%;
+    border-left: 300px;
+    
+}
+
+
+.countryflag img {
+    height: 34px;
+    width: 32px;
+    border-radius: 50%;
+    margin-right: 30px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+#country{
+    margin-top: -36px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    color: #4e4c4a;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.serach{
+    margin-top: 15px;
+    cursor: pointer;
+    
+}
+
+.login{
+    margin-top: 15px;
+    cursor: pointer;
+}
+/* ============================================ */
+
+.section{
+    width: 100%;
+    height: 500px;
+    
+}
+.sectionimage{
+    width: 100%;
+    height: 480px;
+   background-image: url(https://www.etihad.com/content/dam/eag/etihadairways/etihadcom/Global/homepage/toronto%20yyz_banner_d.jpg);
+    display: flex;
+    align-items: center;
+     justify-content: space-around;
+    
+    
+}
+
+.aboutTrip{
+    font-size: 16px;
+    margin-top: 35px;
+    background-color: #d4d4d4;
+    border-color: #8c8c8c;
+    border: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-left: 30px;
+    background-color: #fff;
+    gap: 3px;
+}
+
+.aboutTriplbl{
+    margin-left: 10px;
+}
+
+.traveldetail{
+   
+    background-color:white;
+    width: 700px;
+    height: 300px;
+    border-radius: 16px;
+    margin-left: 30px;
+    margin-bottom: -81px;
+    gap: 0px;
+    
+}
+
+.traveldetail li{
+    padding: 1px;
+    margin-right: 10px;
+}
+
+.traveldescription{
+    width: 350px;
+    height: 200px;
+    border-radius: 16px;
+    margin-left: 230px;
+    background: rgba(0, 0, 0, 0.4);
+    color: rgb(255, 255, 255);
+  
+}
+
+.traveldetail img{
+    margin-left: 11px;
+}
+#SearchFlight{
+    margin-bottom: -300px;
+    margin-left: -730px;
+    color: #fff;
+    line-height: 1.25;
+    position: relative;
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    border: 1px solid #fff;
+    box-shadow: 0 0 4px rgba(33, 33, 33, .25);
+    background: linear-gradient(90deg, #262364, #255cb1);
+    overflow: hidden;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    font-weight: 400;
+    z-index: 1;
+    width: 300px
+
+}
+
+#promocode{
+    margin-bottom: -775px;
+    margin-left: -730px;
+}
+
+.traveldescription h2, h3,h4{
+    margin-top: 25px;
+    margin-left: 30px;
+    line-height:5px
+}
+
+.destinations{
+    margin-top:18px;
+    border-radius: 8px;
+    background: #fff;
+    font-size: 16px;
+    color: #212121;
+    display: flex;
+    margin-bottom: 20px;
+   
+}
+
+.destinationinput1{
+    border: 1px solid #000; 
+    border-radius: 10px; 
+    padding: 10px; 
+    margin-left: 20px;
+    width:300px;
+}
+.destinationinput{
+    border: 1px solid #000; 
+    border-radius: 10px; 
+    padding: 10px; 
+    margin-left: 20px;
+
+}
+
+.bound{
+    margin-left: 20px;
+    
+}
+.bound img{
+    margin-left: 20px;
+    margin-bottom: 1px;
+    width: 10px;
+}
+
+
+
+/* +=========================================== */
+
+
+
+.mumbaiDeals{
+    margin-top: 90px;
+    margin-left: 80px;
+    
+   
+}
+
+.deals h6{
+    font-size: 30px;
+    line-height: 38px;
+    margin: 8px 0;
+    font-family: EtihadAltis-Medium, arial, sans-serif;
+    color: #212121;
+    font-weight: 400;
+}
+
+.travell{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    
+}
+
+.places{
+    border-radius: 16px;
+    height: 250px;
+    width:400px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: .8px;
+    border-radius: 16px;
+    margin-left: -200px;
+    cursor: pointer;
+    background-image: url(https://www.etihad.com/content/dam/eag/etihadairways/etihadcom/Global/destinations/deals/AUH.jpg?imwidth=360);
+}
+.places button{
+    margin-top:23px;
+    margin-left: 10px;
+    font-size: 14px ;
+    line-height: 18px ;
+    color: #4e4c4a;
+     border-radius: 5px;
+     border: none;
+     height: 33px;
+     cursor: pointer;
+}
+.places1{
+    border-radius: 16px;
+    height: 250px;
+    width:400px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: .8px;
+    border-radius: 16px;
+    margin-left: -200px;
+    cursor: pointer;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/London_Skyline_%28125508655%29.jpeg/640px-London_Skyline_%28125508655%29.jpeg);
+}
+.places1 button{
+    margin-top:23px;
+    margin-left: 10px;
+    font-size: 14px ;
+    line-height: 18px ;
+    color: #4e4c4a;
+     border-radius: 5px;
+     border: none;
+     height: 33px;
+     cursor: pointer;
+}
+
+.places2{
+    border-radius: 16px;
+    height: 250px;
+    width:400px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: .8px;
+    border-radius: 16px;
+    margin-left: -200px;
+    cursor: pointer;
+    background-image: url(https://www.etihad.com/content/dam/eag/etihadairways/etihadcom/Global/destinations/deals/YYZ.jpg?imwidth=360);
+}
+
+.places2 button{
+    margin-top:23px;
+    margin-left: 10px;
+    font-size: 14px ;
+    line-height: 18px ;
+    color: #4e4c4a;
+     border-radius: 5px;
+     border: none;
+     height: 33px;
+     cursor: pointer;
+}
+#deal-btn{
+    border: 1px solid #212121;
+    background: #fff;
+    color: #212121;
+    border-radius: 11px;
+    font-size: 18px;
+    margin-left: 650px;
+    color: #212121;
+    height: 40px;
+    
+}
+  .travell{
+    margin-left: 80px;
+    display: flex;
+    gap:60px
+  }
+
+.underline-word{
+    text-decoration: underline;
+    padding-bottom: 3px;
+}
+
+.destination{
+    color: #fff;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 156px;
+    margin-left: 20px;
+}
+
+.From{
+    color:white;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: -92px;
+    margin-left: 300px;
+}
+.amount{
+margin-top: -34px;
+color: white;
+ margin-left: 300px;
+}
+
+#terms{
+    font-size: 12px;
+    line-height: 18px;
+    color: #4e4c4a;
+    margin-left: 57px;
+}
+/* ====================================================== */
+
+.Enhnace{
+    height: 500px;
+    width: 100%;
+}
+
+.Enhancedeals h1{
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: normal;
+    color: #212121;
+    text-align: center;
+}
+
+
+.places_img img{
+    border-radius: 16px;
+    width:400px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+
+.places_img h3{
+    
+    color:whitesmoke;
+    margin-top: -80px;
+    font-size: 18px;
+    font-weight: 50px;
+     align-items: center ;
+     border-right: 20px;
+     cursor: pointer;
+     margin-left: 10px;
+}
+.places_img h6{
+    display: flex;
+    color:whitesmoke;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 50px;
+     align-items: center ;
+     border-right: 20px;
+     cursor: pointer;
+     margin-left: 10px;
+}
+     
+
+.places_img a{
+         text-decoration: none;
+}
+/* ============================================================= */
+
+.appDetails{
+    
+    margin-top: 90px;
+    margin-left: 100px;
+    height: 100px;
+    width: 1500px;
+}
+.appDetails1{
+    
+    width: 90%;
+    height: 514px;
+    border-radius: 16px;
+    display: flex;
+    background-image: url(https://www.etihadcargo.com/content/dam/eag/egcmc/etihadcargo/global/homepage/etihad-cargo-mobile.jpg); 
+}
+
+.appdesc{
+    width: 380px;
+    height: 250px;
+    background: rgba(0, 0, 0, 0.4);
+    margin-left: 800px;
+    margin-top: 100px;
+    border-radius: 16px;
+    color:white;
+}
+
+.appdesc h1,h3,h5{
+    margin-left: 30px;
+    line-height:20px;
+    padding: 7px;
+     
+}
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.final{
+    margin-bottom: 300px;
+    width: 100%;
+    height: 100px;
+    margin-top: 500px;
+}
+.final1 {
+    width: 92%;
+    height: 300px;
+    border-radius: 16px;
+    margin-left: 100px;
+    background-image: url(https://www.etihad.com/content/dam/eag/etihadairways/etihadcom/Global/miscellaneous/never-miss-a-deal-image-of-seychelles.jpg?imwidth=1366);
+     display: flex;
+    
+}
+
+.final2{
+    background: rgba(0, 0, 0, 0.4);
+    height: 176px;
+    width: 66%;
+    margin-top: 75px;
+    background: rgba(255, 255, 255, .92);
+    align-items: center;
+    margin-left: 20px;
+}
+.final button{
+    border: 1px solid #212121;
+    box-shadow: none;
+    background-color: #fff;
+}
+.final2 h2{
+  margin-left: 10px;
+}
+
+.final2 h5{
+    color: #4e4c4a;
+    margin-left: 2px;
+    margin-top: -17px;
+
+}
+/* ===================================================== */
+
+.footer{
+    background-color: #f6f6f5;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footer h2{
+    font-size: 16px;
+    font-family: EtihadAltis-Medium, arial, sans-serif;
+    font-weight: 400;
+    margin-bottom: 16px;
+    line-height: 24px;
+    color: #212121;
+    margin-left: 20px;
+    gap:5px;
+}
+
+.footer h4{
+    font-size: 14px;
+    line-height: 18px;
+    color: gray
+}
+.Aboutuss a{
+text-decoration: none;
+color: gray;
+font-size: 14px;
+    line-height: 18px;
+}
+
+.Aboutuss a:hover {
+    text-decoration: underline;
+}
+#feedback{
+    border: 1px solid #212121;
+    color: #212121;
+    background:#fff;
+    border-radius: 8px;
+    font-size: 22px;
+    height: 50px;
+    margin-left: 30px;
+}
+
+#feedback:hover{
+    background-color: #212121;
+    color:white;
+}
+/* ================================================ */
+
+
+.footerdown{
+  
+    width: 100%;
+    height: 20px;
+    padding: 65px;
+    display: flex;
+    margin-bottom: 0px;
+    margin-top: 378px;
+    margin-left: -1595px;
+    border-top: 1px solid gray;
+    gap: 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footerdescription span{
+    margin-left: 86px;
+    margin-bottom: 30px;
+
+    
+}

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethihad Airways - Book flights,manage and check-in online</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAABWVBMVEX///+zsKGHWjHQhx4yHinp6ObX0MCwqpySkZDs6+nRhQuQjou0saLo5+WvrJwwGyfx8e+DVzC6t6guGCWurKHPhBPX1cnVix8QAACBVjIjABrKx72LXDAbAA3Cv7MmCx3PzMSWXADSjCksGSjIyMjg3NPUm02nqKjV1teBUiNxRhpoPxPChTa0uLxraWfXmUfcpl9lWV/itXcpEB98dHeLVgCTZjm3fznLiTCpdjucbTtwZWo+LjZLPUR9WkFZVVa6dQAfESluTjg+ODqYkYkoHiGcnZ2hayxeOhdTOyZlWlCAfXusr7K8vr93USFSLwN+UAhQPzJJLxOoaABuWURRRz5vUjBST1FSPDzoxI+9lmN9dWrGk1NfRz5zaGwtJCdaQDYXChmMiH1FNj2nkn6qjm+Tb01wSjKLZkdCLzFURju4pI05NjbCsJrFoXS8pILjz7fewZ/XrHnZfCLYAAAQUUlEQVR4nO2d/VfbRhqFK2QjBLKtyNgGJEtag41NEhtjl5Jgh0CIm2BI0jZtaElIFtIt2W7abf//H/YdyR+SZvRlqo+e1U2OCwkn9eM7et+5oxn7iy8SJUqUKFGiRIkSJUqUKFGiRIkSJUqUKNH/iRaQBro2kU5PT++Dzs7ONkaqm5Xho37O/vT664ZFW5juTvQMfj979vxkuFmP+ol71unjr1bn/EmSpEbj7vPuWdTP3aNeLO7t3vHJqHE2tp4vsFE/ey9aKJRKD/zaOIZ8OfwbXJT8qxJdujc3i42I8dvTqAHcNSzQNF15OJuNc9JWM/Y2Zr4sAWLJd8EZq/FNJmoEN3UXaYQ4W8FBNn4b99ZR/wcyERhnLDh/A8QTzUT6FgXnecwH6sZ39EiVhzMifhPzcvN6cYw4a8GJO+L9x/QEccaCI30fb8QfSvSUcbaC0ziIGsJRm1MTZy44jWbUFI56YTBx1hlOvBEXCkbCGQtOrBHR/NuEOFPB2RpGzeGg4SJt1kwFZ2shag576fNvE+IsBefuIGoQezWtJtKlGQqOdHczahBbjefftyw40t34RuITzMSZCo70MrYrVNP59+0KjvRyI2oUO70mmDhLwZGexTUu3n9MIpyh4MQ3Ef+A15rZCo70PB01C1kDsokzFBzpm5iuFb+yMdF/wYlrIrbMv29TcKTvo4YhirU30X+kehM1DVHa/LtQmFipfYUe0G9fBWf3vBzL0F//stJqbW9vV2qFvRbAwVd0ZXsbvijQrVbBR8E5V9qpWMbFi8p2rVWgCzuVHRo9Vna0B/rHSmEHKCseC450vp7qXq4sRY1DUP2nWm1ne7tQ+HEPrrydAr0IwIVaDXyEP0UF544HGwEw3+53O+04xsWLWq1VqRRayDF6B+BatUJhG0ZurYX+BM1wXBGld+upTnd/2G/3YpilNt7WtlstemdxBy7EnVYLRik80Nu1ncp2YTTDcUFEgKleV+l12/3LGCbi1yWwrVKh6b09GoYnINVqBXpP++VphqMBpnq9XL7f6/VX4ufi6WP7tj9pjQ4FR3qNAFOpHPzOweNK/BLxC4eu7z7D0R00KLcSu0RsO/+2zHCIiBggQoxbIrYundrZSJrhSEcYIEKMW1xcIGZ9HBEvONIjAiBCjNkNVBZbOrUbqZaCYwOYSuWfxgwRW/+2tdFUcGwBAfF9vBIxaenUBtFQcBwAAfE/8UrEF15NNBQc6RFqgbbqPIkayqSN77yaiAqONlKlm3UnQECMVyImL53aCBUc6cbRQSQlVon4PnH929bGe3OrroCAGKtE/IMfE0ulB8PrspL/WyGeepq66Xx7u+tLMl8ftMvljrOT5TjdI/Yy/9bsu3d0eNgXKIFl+cxZt+dsZTlG6xoD9wyltcPzw/XU2jFHAWI6zfKsOnijKPZWrsQnEbvPv0ulvdXUIbDkwUJKRwRIsPK0m7K1MkaJeMnZxFLpq3eH+iRGs5CisrKGmNas3Fjql9eIVsYnEeNbF4x4lYefRnyp/IFmoRERQfLVzcs8wcoYJWLb+TdUl0frhxN/1hiOwhG18ZrWrMxbEeOSiG3m39D8Phwa5tgTCxGiaETUrcS7SHwSsc3Whd6hKUMoEwtJiLqVZ0NTF4kNIjb/hupytG6ZYHf2pxaSEXUr1cFBedJFYpOIzfPvUuXr80MsAirLHGVCVEmIehc5m3SRuCRiw/wbmt9c7xCv/p2uyUIHxGkXQVbGJRGPty6g4XlIzH95jqO8I2pWQhcBK5UnsUDUtw4bm591jA6tFrohalaiLrISj9D/omRpfmblUpiDGmLVGXHURWKRpQb0Vx9s7LO10BMiQFaZOCDy/3TgS+V6ZEAPiGxVyHJMN2o+0FCxB0wpx8RB6o7IZuQs/FAsEDMrDhZe21mIZI/IZsSs/jPccQxCf7NjS7hmbyFSxg5QzWbHP8MdR3+nv25r4ij4+kREF6DhZ7ir6EP/gZ2JLhYSES18IOEq8tC/Ubax8I2LhTji9AI0Il7cjxrxCXnFZY1xsxCefcbEp+J86IeaUYf+M6KJxuDrgGgsMBwRECFGHfrfk0xUPFhIjRfgSBegQVwz4kS8Sej6+bYXC8cujjq8jbIyP4wY8Sk+8fZyFY6ePkssMIafENk0P4w29A8wEzuXHi0EyeQCYwRMp/lmpKGfL1tN7FAeLaSE45RjWxmHSTbaN5+wzr87Fx4t5ITLtZzicM1O0zIbaZayzr/zHi0UmD6aEdkjZovT+XkmUkTz/Nsu+GIGDkeLpErTQ1JmI0U0zb9t1i4wQObNZHCTES0hkq1HiWicfytXHgg54SpvmCkohCsXS8lsPcK4uDE10X7twghItRVTAV7DRjaHZ2R2I0LEJ/lczruF0CPyaAttKoeM1L4qWxC5DGERgN2ILhGflXvXOY8Waj0i10/lrnv9druX68M3+Tf9gSADO+KXOR0QMZo52bPoEvH77r52XbkHX4G5hqs2P2x32v1uvz/sdDudbr7bv74SZVmEvxdlVWB5lk/zbIblzSGS34wsEW9+vED3nVzXLlCPQMOy/6arAGGv1+10r6+B8LqvXBXRDE7NwmQVgfE8n+EthIAY2W3w1z/PHX1ad7MQmrzWIzrd/aUeELb3L5Vuuw2Y7XaqjOaoWTUrA4hGyKatHsKfDqJKxIOfG5L06ERwIoQe0dF7RK6b7++jczMKwCkKeNiByNVflilOFmF4wgDVxylGmOaXIkrE/Gtpbm5u91+MPSPqEaOWct3PAVCvDY+pdj7fzl/u7/fbHWVZEGTkHbrVltF+4RWVX4ooLg4b2kbShh0jJxxPmzzqLdBg4Pt8Sn/I53P5HIxy4l1iC2JEibj+crQbGBjx24YUx1mavHGil1sH9T6df/jlo6pm0qwLZVSJuCnN7Y4Yf8bShXDcI62s6mzX5++OHq3uSlLjY1HOZilZrGZYJ8yIEnH97nTbeuOjiZETumtmAzWyVOr8w9EvN3PANnplivPzKPJnEabqgBlRIj7ZNSDOfZwO1XGPMI7Idx8erd5I0ohtCjg/aaiAKeiYJMZIgsbZlvF4xYRxFAR1tNSnD++OblZ3jWST63ceSTSNboQpqlX80owmLv7b/LSBEcoqx/TXNNs+oIttjsQ2AixqhPN4GSZdmtEk4tMt67Pe/SgsoYvt6GbXPCLtHDQOUytmFo3ZiZvRJOLnGEPjARqRTmgj3YwBLcPUSslNKlAkiXjQsDzv1a9K3o6wTwHn513SyagCwbRHDX/XNP+t2a3VByX6npcT7KsGwHnZmXB8aQpiVQ4/ES+YTLzzsETTlV07LIPmTXJcBTeIY3KhJ2L2pcHEOw8rtIfD3XCxymZCbwvKWtQMf2P4cGrind2Ktu2t4jZMrYBOtWYqfRoR/q7p+rPpM6+MNvY9cDYRAyS1RNzAUdQMf9d0czxMV8cH9Ok9RxMbAgboXmsgqayNp4FhbyneGM2/V+9NziuUnN5JovEZB3Q1UThOTZNK6Ignkg5o2CPt0DDIgM4tUVuONOaUkI9Ka/Nv6PTGHdK2DaPxa5FI6DRMBcYaNfNPw33zMJh/33lg2uVu2zDsAB2GKfSINWytIP8+1Li4uaV1eqMqZEKI9DaAti1RWO6T9kN2wt0Y/vxhxXoOg9gwHABtWuJ0ORJDDHXXNOGtM0gNQ4/0diICLk96BCYlzKPShKN7pYc+AUm1RjjOOZzPDPWoNOHoHtYwJpHeTtbpNyfs4yXGhBhiIiYc3Sv5BbTWGrxHYArzHDF+dM/SMKZrFt6GKb4cGTEi4eieqWE0blwBTbVGYK6d9sxPtBJeIsaP7pkahhfA6TCd7ktxRwwtERPeOsPYMLwATlqicV+KO2JoN1Dxt86YNgzJE+Bo+m26ZeUFMaxETHjX4Xt3/Dg4r9caFATdS4xB4YV+/F2HRwmDEOntZAmCXhFDCv2bmIl6w/ABOC9wl+XJRh3viOWQEjH+1hloScom8ZJULIrtfv+6l8orSnltbU0BdTp5JGfqXDmcRIy/6zA0DEfAYrGKlAGNbk0Ui2jmo4qiLC8vLx8fLw27l/sHb/q9VKdcLiuKxt1BQtQT7PzTUG6g8q8WCxbtmQGLIyRgSqM7Efh9wirpZSiiB/hKlIXlZeb4eDjsNpvgdi+X73SUNQ37aShxcdhqtWq6tkF/7mzvfB4TZdKuN+s1eR7SiLyIqMFsZrC0dBAGYmapaJHMyFVPYE4mepJIhZKluub/q8wgCb4YWbcEQpZAcVQYWap+bHxVmbEolXDF2SkzCyCnzfXCQGwaXlXGKJW01+mvGqfyeDobAuLZ8vh/ylglemX0beI0koRxjlg3UcT4kGQPZ9b9m2hcowvjHPEpN28doAYJ3hj9AJrXr8I4R9wkDFCDuKKHwurDRGw7fPDniAdOfHrRcS+ss4zQ8fJH4OeI+RPKldG16HgsNsRDjMIw6NC/4AoIkl0YPbV9mzsdwkXAiZhtupvIuBVWDyba3/oXLgJOxEMvgIx5Noft7XYtNpZ7AJMbrBzHUULA54jrF2QiNA3nVFkWGRUuRfhWRox8WjuFgN6hhs9M9+q7mTjd51nNUiqnivAPyxT84xAtOZVbCjYRN4mAHKDJnIjgxg/wnypckHwaPWQygDs9b+FoomGEQnrKqpyY5USdEF2csigeBIpYvyIRioKKCEGMCi81eqAYUYbCCjZmMtiJEqcRaqihqqBmVaooqoKMjEQeUlSV4w4CDf3EWgNPQbZ6KMgiB39TRccs0shDdnrewt5E46YGWZRVCnkoIDPBQy6bzQI1xQUaF88IJnIysnFCKDPwYgvoO/gLUUUXJDIQ/RrVGtZ9hKJBCpCCyIkUjFKBghcR/bMaKhXoLNxbwzC9AKPZnKGokouN01sVmKsrE6SLp8d+CUkxmdT2vR6Kp4KOi/5NRLLM5nATPRsYPOJgBhORzLM5a7Hx/r4NY8TgrkV+NhMZ82zObKLoY4SOEQNMxAvMsqYZGA2zOaOJXnZKExAD2xjOvmrV3v7022+///7rZ4Za9ofLjYtOZvYROka8Ciz0D/UV/kVQobQHuG8R7mcm6w13tDY3NtHTHmKihMBCf928/2SCW6rsjdz99bMjrV5YZ6mhFsSLoBKxw6d+jHELCPetPpg/Z7NWXHRDIHOLETpBDCgRe/zUjwktjOW9GsJFtIxeqOQ6W7zFCB0jBvXOWr4+9cMyltFg1i7d3wAwm83eYpRqiMEk4jNfn/pBwAXQ7f9C4shUVZhW34ZTOAkG8ci/iQYtLtb+GJ+1ZJEAVJUFbiZQ4SSQROzjUz9w/+g/qzzh3c7ZtOYo5xdUCCYRe/zUDxwPRqfT0vgE1MfQ5QK5R+ztU/cwvtYfNieBMc7RNcpR7qBcIIgeP3XPhEf/Oe/vtrjOqYE6OsoFchvc4VOviXguo9MV1HHocssBIHr+1D2Nb+8Pn7saHEHxNhpIIvb6qXva6MRr5+1A0dAVjNdoEInY26fuodHpbbfNjKDjNhpEIm4uugtGJx8E35RyUoyEv/4ecX3JXQthKkYfoZUoUaJEiRIlSpQoUaJEiRIlSpQoUaJEiYLV/wC2acE7mXkftQAAAABJRU5ErkJggg==" type="image/icon type">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+     <div class="header">
+        <div class="mainlogo">
+      <a href="#">  <img src="images/header-text-image-web.svg" alt=""></a>
+      </div>
+       <div class="mainLink">
+        <h5>Book</h5>
+        <h5>Manage</h5>
+        <h5>Experience</h5>
+        <h5>Destinations</h5>
+        <h5>Help</h5>
+        <h5>Etihad Guest</h5>
+    </div>
+        <div class="special">
+        <img  src="images/download.svg" alt="">
+    </div>
+    <div class="countryflag">
+      <img src="images/india.jpg" alt="">
+      <h5 id="country">IN</h5>
+    </div>
+    <div class="serach">
+      <img src="images/header-search-icon.svg" alt="">
+    </div>
+    <div class="login">
+      <img src="images/Account.svg" alt="">
+    </div>
+    </div>
+    <!-- ========================================================== -->
+       
+    <div class="section">
+      <div class="sectionimage">
+          
+         <div class="traveldetail">
+          
+          <button class="aboutTrip">Round Trip</button>
+           
+          <i class="fa-solid fa-arrow-right-arrow-left"></i>
+          <img src="images/label.svg" src="">
+          <label class="aboutTriplbl">1 Guest</label>
+          <i class="fa-solid fa-angle-down"></i>
+          <label class="aboutTriplbl">Economy</label>
+          <i class="fa-solid fa-angle-down"></i>
+          <div class="destinations">
+          <input type="text"  class="destinationinput1"  placeholder="Kolkata, CCU"> 
+          <input type="text"  class="destinationinput1" placeholder="Flying to">
+        </div class="bound">
+        
+          <input type="text" class="destinationinput"  placeholder="Outbond"> 
+          <input type="text"  class="destinationinput" placeholder="Return">
+          <img src="images/zayed-mosque.svg" alt="">
+          <a href><h4>Abu Dhabi Stopover </h4></a>
+        </div>
+       
+            <button id="SearchFlight">Search flight</button>
+   
+          <div class="traveldescription">
+            <h2>Lakefront gem</h2>
+            <h3>Discover the charm of Toronto</h3>
+            <h3>from 100,677*</h3>
+            <h4>Book now</h4>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+<!-- ===================================================   -->
+<div class="mumbaiDeals">
+  <div class="deals">
+    <h6><strong> Top deals from <Span class="underline-word">Mumbai
+</Span></strong></h6>
+  </div>
+  <div class="travell">
+   <div class="places">
+    <button >Round trip - Economy</button>
+    <h5 class="destination">Abu Dhabi</h5>
+    <h6 class="From">From</h6>
+    <h5 class="amount">INR 17,163*</h5>
+
+</div>
+  <div class="places1">
+    <button >Round trip - Economy</button>
+    <h5 class="destination">London</h5>
+    <h6 class="From">From</h6>
+    <h5 class="amount">INR 48,163*</h5>
+  </div>
+      <div class="places2">
+        <button >Round trip - Economy</button>
+        <h5 class="destination">Toronto</h5>
+        <h6 class="From">From</h6>
+        <h5 class="amount">INR 100,163*</h5>
+        
+          </div>
+        </div>
+        </div>
+        <h6 id="terms">*Return fares, inclusive of taxes and surcharges. Our flight schedule is subject to change and local operating conditions.</h6>
+        <button id="deal-btn"><b>See more deals</b></button>
+<!-- ====================================================== -->
+<div class="Enhance">
+  <div class="Enhancedeals">
+    <h1><strong>Enhance your trip</h1></strong> 
+  </div>
+  <div class="travell">
+  <div class="places_img">
+<img src="images/terminal-a-building.avif" alt="">
+     <h3><b>Welcome to Zayed International Airport</b></h>
+      <a href=""><h6>Check it out</h6></a>
+      </div>
+      <div class="places_img">
+    <img src="images/economy-extra-leg-room.avif" alt="">
+    <h3><b>Extra legroom,extra space,extra easy</b></h>
+      <a href=""><h6>show me</h6></a>
+      </div>
+      <div class="places_img">
+        <img src="images/termina-a-lounge-1.avif" alt="">
+        <h3><b>Discover our lounge</b></h>
+          <a href=""><h6>Check it out</h6></a>
+       
+          </div>
+        </div>
+        </div>
+<!-- ================================================================== -->
+
+<div class="appDetails">
+<div class="appDetails1">
+  <div class="appdesc">
+   <h1>Download Our app</h1>
+   <h3>Travel at your fingertips,now even easier</h3>
+   <h5>find out more</h5>
+
+  </div>
+</div>
+</div>
+
+<!-- =================================================================== -->
+
+<div class="final">
+   <div class="final1">
+    
+     <div class="final2">
+      <h2>Never miss a deal!</h2>
+      <h5>Make the most of your travel experiences with our offers, get our latest updates and more by subscribing to our alerts.
+      
+      </h5>
+     </div>
+   </div>
+
+</div>
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++ -->
+<div class="footer">
+ 
+  <div class="Aboutuss">
+     <h2><b>About Etihad Airways</b></h2>
+     <a href><h4>Latest news</h4></a>
+     <a href><h4>Careers</h4></a>
+    <a href><h4>Our sponsorships</h4></a>
+    <a href><h4>Our codeshare partner airlines</h4></a>
+    <a href><h4>Ethics and compliance</h4></a>
+    <a href><h4>Sustainability</h4></a>
+  </div>
+  <div class="Aboutuss">
+    <h2><b>Destinations and flights</b></h2>
+    <a href><h4>Book flights</h4></a>
+    <a href><h4>Destinations</h4></a>
+    <a href><h4>International flights</h4></a>
+    <a href><h4>Fare finder</h4></a>
+    <a href><h4>Discover Abu Dhabi</h4></a>
+    <a href><h4>Abu Dhabi Stopover</h4></a>
+  </div>
+  <div class="Aboutuss">
+    <h2><b>All extras and upgrades</b></h2>
+    <a href><h4>Baggage</h4></a>
+    <a href><h4>Payment options</h4></a>
+    <a href><h4>Cookie Policy</h4></a>
+    <a href><h4>GST Information (India)</h4></a>
+    <a href><h4>Tax refund</h4></a>
+    <a href><h4>Procurement</h4></a>
+    <a href><h4>Affiliate programme</h4></a>
+  </div>
+  <div class="Aboutuss">
+    <h2><b>We love hearing from you</b></h2>
+    
+    <h4>Your feedback is really important, and we love hearing what you think.</h4>
+   <button id="feedback">Feedback</button>
+  </div>
+
+
+<!-- ==================================================================== -->
+
+<div class="footerdown">
+   <div class="footerdescription">
+    <span>Copyright 2024 Etihad Airways. All rights reservedTerms and ConditionsPrivacy PolicyCookie PolicyCookie Settings</span>
+   </div>
+
+   <div class="footerimage">
+    <img src="images/new-LinkedIn@1x.svg" alt="">
+    <img src="images/new-Facebook@1x.svg" alt="">
+    <img src="images/new-Instagram@1x.svg" alt="">
+    <img src="images/new-Youtube@1x.svg" alt="">
+    <img src="images/new-Twitter@1x.svg" alt="">
+   </div>
+</div>
+</div>
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+ </div>
+</body>
+</html>
